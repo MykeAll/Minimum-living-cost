@@ -11,36 +11,43 @@
 <body>
 
     <!-- header section-->
-    <div class="landing w-full bg-slate-800">
-        <div class="justify-between pb-8 mr-20 border-b-2 ml-12  flex pt-[20px] place-items-center">
-            <img src="image/logo 1.png" class="p-2  ">
-            <nav class="flex text-slate-100">
-                <a href="" class="mr-[20px]">
-                    Home
-                    <!-- <hr class="w-[45px]"> -->
-                </a>
-                <a href="" class="mr-[20px]">
-                    Landlord
-                    <!-- <hr class="w-[60px]"> -->
-                </a>
-                <a href="" class="mr-[20px]">
-                    Tenant
-                    <!-- <hr class="w-[55px]"> -->
-                </a>
-                <a href="">
-                    Contact Us
-                    <!-- <hr class="w-[70px]"> -->
-                </a>
+    <div class="landing bg-slate-800">
+        <div class="mx-auto justify-between  border-b-4 ml-12  md:flex lg:flex pb-8 mr-20 pt-[20px] place-items-center">
+            <img src="image/logo 1.png" class="mx-auto p-2  ">
+            <nav class="items-center md:flex lg:flex text-slate-100">
+                <div class="mx-auto flex ">
+                    <a href="" class="">
+                        Home
+                        <!-- <hr class="w-[45px]"> -->
+                    </a>
+                    <a href="" class="mr-[20px] pl-4">
+                        Landlord
+                        <!-- <hr class="w-[60px]"> -->
+                    </a>
+                </div>
+                
+                <div class="mr-[20px]">
+                    <a href="">
+                        Tenant
+                        <!-- <hr class="w-[55px]"> -->
+                    </a>
+                    <a href="" class="pl-4">
+                        Contact Us
+                        <!-- <hr class="w-[70px]"> -->
+                    </a>
+                </div>
+                <div>
+                </div>
             </nav>
         </div>
            <!-- <hr class="h-[3px] mt-[10px] ml-[100px] lg:ml-[130px] w-[80%] bg-slate-100"> -->
 
-           <div class="middle pt-20 justify-between pl-10 lg:flex">
+           <div class="middle pt-20 justify-between lg:pl-10 sm:block justify-center md:flex lg:flex">
              <h1 class="pl-20 my-auto font-bold text-[40px] text-slate-100 ">The Most Affordable <br> Place To Stay In The <br> San Fransisco Bay Area</h1>
              <div class="">
                 <img src="image/Map Rectangle 1.png" class="w-[400px]">
-                <div class="card border rounded-lg border-slate-400 bg-white shadow-lg m-[50px] w-[300px] lg:w-[350px] h-[100px] lg:h-[70px]">
-                    <div class="m-4px flex justify-center p-2">
+                <div class="card border rounded-lg border-slate-400 bg-white shadow-lg lg:m-[50px] w-[300px] lg:w-[350px]  lg:h-[70px]">
+                    <div class="lg:m-4px flex justify-center p-2">
                         <select class=" rounded-l-md bg-gray-200 font-semibold pl-4 " name="" id="">
                             <option class="" value="">All Type</option>
                         </select>
@@ -101,8 +108,8 @@
 
     <!-- property section-->
 
-    <div class=" w-full bg-stone-200">
-        <div class="flex justify-between">
+    <div class="w-full bg-stone-200">
+        <div class="lg:flex justify-between">
           <div class="flex font-semibold mt-[40px] ml-[10%]">
               <h1 class="border-b-4 border-red-500 text-[30px]">List of</h1><h1 class="text-[30px] ml-2">Properties</h1>
               <!-- <hr class="w-[100px] h-[2px] bg-orange-500"> -->
@@ -110,96 +117,20 @@
           <button class="w-[100px] text-[10px] font-semibold text-slate-100 mt-[50px] mr-[10%] h-[30px] bg-orange-500 rounded-sm">View All Properties</button>
         </div>
   
-        <div class="mr-[10%] ml-[10%] mt-[40px] cards grid gap-y-[70px] gap-x-[110px] grid-cols-3 flex">
-          <div class="card1 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
-            <div class="border-b-2 border-slate-400">
-                <img class="" src="image/p1 unsplash_Eh_It1hg4Hs.png"> 
-             <div class="pl-[20px]">
-                <p class=" font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
-                <p class="text-slate-500 mt-[5px]">Private Room</p>
-                <p class="text-orange-500 ">$1200/Month</p>
-             </div>
-            </div>
-            
-             <div class="flex justify-between rounded-b-lg">
-              <span class=" px-[40px] py-[5px] flex font-bold border-r-2 border-slate-400">
-                  <i class="ri-car-fill"></i>
-                  <p class="">4</p> 
-              </span>
-              <span class=" px-[30px] py-[5px] flex font-bold border-r-2 border-slate-400">
-                  <i class="ri-e-bike-2-fill"></i>
-                  <p class="">2</p>
-              </span>
-              <span class=" px-[20px] py-[5px] flex font-bold border-r-2">
-                  <i class="ri-hashtag"></i>
-                  <p class="">2</p>
-              </span>
-             </div>
-          </div>
-  
-          <div class="card2 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
-            <div class="border-b-2 border-slate-400">
-                <img class="" src="image/p2unsplash_2d4lAQAlbDA.png"> 
-               <div class="pl-[20px]">
-                <p class="font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
-                <p class="text-slate-500 mt-[5px]">Private Room</p>
-                <p class="text-orange-500">$1200/Month</p>
-               </div>
-            </div>
-              <!-- <hr class=" bg-slate-400"> -->
-              <div class="flex justify-between rounded-b-lg">
-                <span class=" px-[40px] py-[5px] flex font-bold border-r-2 border-slate-400">
-                    <i class="ri-car-fill"></i>
-                    <p class="">4</p> 
-                </span>
-                <span class=" px-[30px] py-[5px] flex font-bold border-r-2 border-slate-400">
-                    <i class="ri-e-bike-2-fill"></i>
-                    <p class="">2</p>
-                </span>
-                <span class=" px-[20px] py-[5px] flex font-bold border-r-2">
-                    <i class="ri-hashtag"></i>
-                    <p class="">2</p>
-                </span>
-               </div>
-          </div>
-  
-           <div class="card3 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
-            <div class="border-b-2 border-slate-400">
-                <img class="" src="image/p3unsplash_T6d96Qrb5MY.png"> 
-                <div class="pl-[20px]">
-                    <p class="font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
-                    <p class="text-slate-500 mt-[5px]">Private Room</p>
-                    <p class="text-orange-500">$1200/Month</p>
-                </div>
-            </div>
-              <!-- <hr class=" bg-slate-400"> -->
-              <div class="flex justify-between rounded-b-lg">
-                <span class=" px-[40px] py-[5px] flex font-bold border-r-2 border-slate-400">
-                    <i class="ri-car-fill"></i>
-                    <p class="">4</p> 
-                </span>
-                <span class=" px-[30px] py-[5px] flex font-bold border-r-2 border-slate-400">
-                    <i class="ri-e-bike-2-fill"></i>
-                    <p class="">2</p>
-                </span>
-                <span class=" px-[20px] py-[5px] flex font-bold border-r-2">
-                    <i class="ri-hashtag"></i>
-                    <p class="">2</p>
-                </span>
-               </div>
-           </div>  
-  
-           <div class="card4 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
-            <div class="border-b-2 border-slate-400">
-                <img class="" src="image/p4unsplash_KQgrVfR3r74.png"> 
-               <div class="pl-[20px]">
-                <p class="font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
-                <p class="text-slate-500 mt-[5px]">Private Room</p>
-                <p class="text-orange-500">$1200/Month</p>
-               </div>
-            </div>
-                  <!-- <hr class=" bg-slate-400"> -->
-                  <div class="flex justify-between rounded-b-lg">
+        <div class=" cards lg:grid  lg:grid-cols-3 lg:block">
+
+            <div class="property mr-[10%] ml-[10%] mt-[40px] gap-y-[70px] gap-x-[110px] lg:flex">
+                <div class="card1 pb-2 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
+                  <div class="border-b-2 border-slate-400">
+                      <img class="" src="image/p1 unsplash_Eh_It1hg4Hs.png"> 
+                   <div class="pl-[20px]">
+                      <p class=" font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
+                      <p class="text-slate-500 mt-[5px]">Private Room</p>
+                      <p class="text-orange-500 ">$1200/Month</p>
+                   </div>
+                  </div>
+                  
+                   <div class="flex justify-between rounded-b-lg">
                     <span class=" px-[40px] py-[5px] flex font-bold border-r-2 border-slate-400">
                         <i class="ri-car-fill"></i>
                         <p class="">4</p> 
@@ -213,59 +144,140 @@
                         <p class="">2</p>
                     </span>
                    </div>
-           </div>    
-  
-           <div class="card5 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
-            <div class="border-b-2 border-slate-400">
-                <img class="" src="image/p5unsplash_UV81E0oXXWQ.png"> 
-               <div class="pl-[20px]">
-                <p class="font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
-                <p class="text-slate-500 mt-[5px]">Private Room</p>
-                <p class="text-orange-500">$1200/Month</p>
-               </div>
+                </div>
+
+                <div class="card2 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
+                  <div class="border-b-2 border-slate-400">
+                      <img class="" src="image/p2unsplash_2d4lAQAlbDA.png"> 
+                     <div class="pl-[20px]">
+                      <p class="font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
+                      <p class="text-slate-500 mt-[5px]">Private Room</p>
+                      <p class="text-orange-500">$1200/Month</p>
+                     </div>
+                  </div>
+                    <!-- <hr class=" bg-slate-400"> -->
+                    <div class="flex justify-between rounded-b-lg">
+                      <span class=" px-[40px] py-[5px] flex font-bold border-r-2 border-slate-400">
+                          <i class="ri-car-fill"></i>
+                          <p class="">4</p> 
+                      </span>
+                      <span class=" px-[30px] py-[5px] flex font-bold border-r-2 border-slate-400">
+                          <i class="ri-e-bike-2-fill"></i>
+                          <p class="">2</p>
+                      </span>
+                      <span class=" px-[20px] py-[5px] flex font-bold border-r-2">
+                          <i class="ri-hashtag"></i>
+                          <p class="">2</p>
+                      </span>
+                     </div>
+                </div>
+                <div class="card3 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
+                 <div class="border-b-2 border-slate-400">
+                     <img class="" src="image/p3unsplash_T6d96Qrb5MY.png"> 
+                     <div class="pl-[20px]">
+                         <p class="font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
+                         <p class="text-slate-500 mt-[5px]">Private Room</p>
+                         <p class="text-orange-500">$1200/Month</p>
+                     </div>
+                 </div>
+                   <!-- <hr class=" bg-slate-400"> -->
+                   <div class="flex justify-between rounded-b-lg">
+                     <span class=" px-[40px] py-[5px] flex font-bold border-r-2 border-slate-400">
+                         <i class="ri-car-fill"></i>
+                         <p class="">4</p> 
+                     </span>
+                     <span class=" px-[30px] py-[5px] flex font-bold border-r-2 border-slate-400">
+                         <i class="ri-e-bike-2-fill"></i>
+                         <p class="">2</p>
+                     </span>
+                     <span class=" px-[20px] py-[5px] flex font-bold border-r-2">
+                         <i class="ri-hashtag"></i>
+                         <p class="">2</p>
+                     </span>
+                    </div>
+                </div>  
+
             </div>
-                      <!-- <hr class=" bg-slate-400"> -->
-                      <div class="flex justify-between rounded-b-lg">
-                        <span class=" px-[40px] py-[5px] flex font-bold border-r-2 border-slate-400">
-                            <i class="ri-car-fill"></i>
-                            <p class="">4</p> 
-                        </span>
-                        <span class=" px-[30px] py-[5px] flex font-bold border-r-2 border-slate-400">
-                            <i class="ri-e-bike-2-fill"></i>
-                            <p class="">2</p>
-                        </span>
-                        <span class=" px-[20px] py-[5px] flex font-bold border-r-2">
-                            <i class="ri-hashtag"></i>
-                            <p class="">2</p>
-                        </span>
-                       </div>
-           </div>    
+
+
+            <div class="property mr-[10%] ml-[10%] mt-[40px] gap-y-[70px] gap-x-[110px] lg:flex">
+                <div class="card4 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
+                 <div class="border-b-2 border-slate-400">
+                     <img class="" src="image/p4unsplash_KQgrVfR3r74.png"> 
+                    <div class="pl-[20px]">
+                     <p class="font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
+                     <p class="text-slate-500 mt-[5px]">Private Room</p>
+                     <p class="text-orange-500">$1200/Month</p>
+                    </div>
+                 </div>
+                       <!-- <hr class=" bg-slate-400"> -->
+                       <div class="flex justify-between rounded-b-lg">
+                         <span class=" px-[40px] py-[5px] flex font-bold border-r-2 border-slate-400">
+                             <i class="ri-car-fill"></i>
+                             <p class="">4</p> 
+                         </span>
+                         <span class=" px-[30px] py-[5px] flex font-bold border-r-2 border-slate-400">
+                             <i class="ri-e-bike-2-fill"></i>
+                             <p class="">2</p>
+                         </span>
+                         <span class=" px-[20px] py-[5px] flex font-bold border-r-2">
+                             <i class="ri-hashtag"></i>
+                             <p class="">2</p>
+                         </span>
+                        </div>
+                </div>    
+                <div class="card5 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
+                 <div class="border-b-2 border-slate-400">
+                     <img class="" src="image/p5unsplash_UV81E0oXXWQ.png"> 
+                    <div class="pl-[20px]">
+                     <p class="font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
+                     <p class="text-slate-500 mt-[5px]">Private Room</p>
+                     <p class="text-orange-500">$1200/Month</p>
+                    </div>
+                 </div>
+                           <!-- <hr class=" bg-slate-400"> -->
+                           <div class="flex justify-between rounded-b-lg">
+                             <span class=" px-[40px] py-[5px] flex font-bold border-r-2 border-slate-400">
+                                 <i class="ri-car-fill"></i>
+                                 <p class="">4</p> 
+                             </span>
+                             <span class=" px-[30px] py-[5px] flex font-bold border-r-2 border-slate-400">
+                                 <i class="ri-e-bike-2-fill"></i>
+                                 <p class="">2</p>
+                             </span>
+                             <span class=" px-[20px] py-[5px] flex font-bold border-r-2">
+                                 <i class="ri-hashtag"></i>
+                                 <p class="">2</p>
+                             </span>
+                            </div>
+                </div>    
+                <div class="card6 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
+                 <div class="border-b-2 border-slate-400">
+                     <img class="" src="image/p6unsplash_uDtC-1NLEzU.png"> 
+                    <div class="pl-[20px]">
+                     <p class="font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
+                     <p class="text-slate-500 mt-[5px]">Private Room</p>
+                     <p class="text-orange-500">$1200/Month</p>
+                    </div>
+                 </div>
+                               <!-- <hr class=" bg-slate-400"> -->
+                               <div class="flex justify-between rounded-b-lg">
+                                 <span class=" px-[40px] py-[5px] flex font-bold border-r-2 border-slate-400">
+                                     <i class="ri-car-fill"></i>
+                                     <p class="">4</p> 
+                                 </span>
+                                 <span class=" px-[30px] py-[5px] flex font-bold border-r-2 border-slate-400">
+                                     <i class="ri-e-bike-2-fill"></i>
+                                     <p class="">2</p>
+                                 </span>
+                                 <span class=" px-[20px] py-[5px] flex font-bold border-r-2">
+                                     <i class="ri-hashtag"></i>
+                                     <p class="">2</p>
+                                 </span>
+                                </div>
+                </div> 
+            </div>  
   
-           <div class="card6 bg-slate-100 rounded-t-3xl rounded-b-lg shadow-lg">
-            <div class="border-b-2 border-slate-400">
-                <img class="" src="image/p6unsplash_uDtC-1NLEzU.png"> 
-               <div class="pl-[20px]">
-                <p class="font-semibold">2578 Falcom Street, San <br> Francisco, Ca, 94110</p>
-                <p class="text-slate-500 mt-[5px]">Private Room</p>
-                <p class="text-orange-500">$1200/Month</p>
-               </div>
-            </div>
-                          <!-- <hr class=" bg-slate-400"> -->
-                          <div class="flex justify-between rounded-b-lg">
-                            <span class=" px-[40px] py-[5px] flex font-bold border-r-2 border-slate-400">
-                                <i class="ri-car-fill"></i>
-                                <p class="">4</p> 
-                            </span>
-                            <span class=" px-[30px] py-[5px] flex font-bold border-r-2 border-slate-400">
-                                <i class="ri-e-bike-2-fill"></i>
-                                <p class="">2</p>
-                            </span>
-                            <span class=" px-[20px] py-[5px] flex font-bold border-r-2">
-                                <i class="ri-hashtag"></i>
-                                <p class="">2</p>
-                            </span>
-                           </div>
-           </div>    
         </div>
   
         <div class="text-orange-500 font-semibold text-center bg-white rounded-md w-[300px] mx-auto border-slate-400 border-2 mt-[40px] justify-center flex">
@@ -279,10 +291,10 @@
 
 
       <!-- flexibility section -->
-      <div class="mt-8 flexibility-page w-full">
-        <div class="flex ml-4 pl-[10px]">
+      <div class="flexibility-page bg-stone-100 mt-8 w-full">
+        <div class="lg:flex ml-4 pl-[10px]">
             <div class="">
-                <div class="Image flex">
+                <div class="Image lg:flex">
                     <div class="image1 relative items-center justify-center text-center flex">
                         <img class="" src="image/Bed unsplash_nEtpvJjnPVo.png">
                         <h1 class="absolute top-8 font-bold text-white">Flexible lease</h1>
@@ -295,7 +307,7 @@
                     </div>
                 </div>
 
-                <div class="Image flex ">
+                <div class="Image lg:flex ">
                     <div class="image3 relative items-center justify-center text-center flex">
                         <img class="" src="image/Cleaning unsplash_uooMllXe6gE.png">
                         <h1 class="absolute top-8 font-bold text-white">Monthly House <br> Cleaning</h1>
@@ -317,59 +329,73 @@
                 <button class="text-[10px] text-slate-100 bg-orange-500 rounded w-[100px] h-[30px] mt-[20px]">Search Rooms</button>
             </div>
         </div>
-        <h3 class="text-[20px] font-semibold text-center mt-[70px] ">Your Property With Us And Be Confident That Your Room Will Be Filled Out!</h3>
+        <div class="lg:text-[20px] font-semibold text-center mt-[70px] ">
+            <h3>Your Property With Us And Be Confident That Your Room Will Be Filled Out!</h3>
+        </div>
 
-        <form class="w-[800px] mt-[50px] mx-auto border shadow-lg shadow-t-lg rounded-lg border-1">
-            <h1 class="font-bold text-orange-500 text-center">Add A New Property</h1>
+        </div>
 
-            <div class="pl-[50px] gap-5 grid grid-cols-3 mt-[20px]">
-                <div>
-                    <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
-                        Name
-                    </label>
-                    <input class="pl-[5px] text-[13px] w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" type="text" placeholder="Enter Name" >
+        <!-- form section -->
+
+        <form class="w-[800px] mt-[50px] lg:mx-auto border shadow-lg shadow-t-lg rounded-lg ">
+            <div class="font-bold text-orange-500 text-center"><h1>Add A New Property</h1>
+            </div>
+
+            <div class="pl-[50px] mt-[20px]">
+                <div class="lg:flex justify-between">
+                    <div>
+                        <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
+                            Name
+                        </label>
+                        <input class="pl-[5px] text-[13px] w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" type="text" placeholder="Enter Name" >
+                    </div>
+    
+                    <div>
+                        <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
+                            Address
+                        </label>
+                        <input class="pl-[5px] text-[13px] w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" type="text" placeholder="Enter Address" >
+                    </div>
+    
+                    <div>
+                        <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
+                            Unit Number
+                        </label>
+                        <input class="pl-[5px] text-[13px] w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" type="text" placeholder="Enter Unit" >
+                    </div>
+
                 </div>
 
-                <div>
-                    <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
-                        Address
-                    </label>
-                    <input class="pl-[5px] text-[13px] w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" type="text" placeholder="Enter Address" >
+                <div class="lg:flex justify-between">
+                    <div>
+                        <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
+                            City
+                        </label>
+                        <select class="text-slate-300 pl-[5px] text-[13px] w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" name="city" id="city">
+                            <option value="">Select City</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
+                            State
+                        </label>
+                        <select class="text-slate-300 pl-[5px] text-[13px] w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" name="city" id="">
+                            <option value="">Select State</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
+                            Room Type
+                        </label>
+                        <select class="pl-[5px] text-[13px] text-slate-300 w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" name="city" id="">
+                            <option value="">Select Room Type</option>
+                        </select>
+                    </div>
+
                 </div>
 
-                <div>
-                    <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
-                        Unit Number
-                    </label>
-                    <input class="pl-[5px] text-[13px] w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" type="text" placeholder="Enter Unit" >
-                </div>
-
-                <div>
-                    <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
-                        City
-                    </label>
-                    <select class="text-slate-300 pl-[5px] text-[13px] w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" name="city" id="city">
-                        <option value="">Select City</option>
-                    </select>
-                </div>
-
-                <div>
-                    <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
-                        State
-                    </label>
-                    <select class="text-slate-300 pl-[5px] text-[13px] w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" name="city" id="">
-                        <option value="">Select State</option>
-                    </select>
-                </div>
-
-                <div>
-                    <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
-                        Room Type
-                    </label>
-                    <select class="pl-[5px] text-[13px] text-slate-300 w-[200px] h-[30px] bg-stone-100 border-2 border-slate-100 rounded" name="city" id="">
-                        <option value="">Select Room Type</option>
-                    </select>
-                </div>
 
                 <div>
                     <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
@@ -383,7 +409,7 @@
                 <label class="mt-[5px] text-[12px] font-semibold flex" for="name">
                     Description
                 </label>
-                <textarea class="pl-[5px] text-[13px] bg-stone-100 border-2 border-slate-100 rounded" type="text" placeholder="Enter Description" name="description" id="description" cols="115" rows="5"></textarea>
+                <textarea class="pl-[5px] text-[13px] bg-stone-100 border-2 border-slate-100 rounded" type="text" placeholder="Enter Description" name="description" id="description" cols="lg:115" rows="lg:5"></textarea>
             </div>
 
             <div class="ml-[50px] mt-[30px]">
@@ -391,12 +417,12 @@
                     Upload Photos
                 </label>
             </div>
-                <button class="bg-orange-500 w-[300px] h-[30px] text-slate-100 ml-[250px] rounded text-[13px]  mb-[50px] mt-[30px]">Add New Property</button>
+                <button class="bg-orange-500 w-[300px] h-[30px] text-slate-100 ml-[250px] rounded  mb-[50px] mt-[30px]">Add New Property</button>
         </form>
-    </div>
+
 
     <!-- testimony section -->
-    <div class="flex justify-between lorem-page bg-[#F4511E12]">
+    <div class="lorem-page lg:flex justify-between bg-[#F4511E12]">
         <div>
            <div class="flex">
             <img class="ml-[45px] absolute opacity-30 w-[30px] mt-[45px]" src="image/quotation“.png">
@@ -425,52 +451,58 @@
     </div>
 
     <!-- footer section -->
-    <div class="footer">
-        <hr class="bg-orange-500 mx-auto h-[2px] w-[85%] mx-[auto] mt-[120px]">
-        <div class="flex">
-            <div class=" h-[170px] w-[50%]">
-                <h1 class="mt-[50px] ml-[150px] font-bold text-[30px]">Logo</h1>
+    <footer>
+        <div class="footer">
+            <hr class="bg-orange-500 mx-auto lg:h-[2px] w-[85%] mx-[auto] mt-[20px] lg:mt-[120px]">
+            <div class="border-b-4 lg:flex">
+                <div class="lg:h-[170px] lg:w-[50%]">
+                    <h1 class="text-center lg:mx-auto lg:mt-[50px] lg:ml-[150px] font-bold text-[30px]">Logo</h1>
+                </div>
+                <div>
+                    <span class="ml-10 lg:mt-[30px] flex">
+                        <i class="text-orange-500 ri-map-pin-2-fill"></i>
+                        <p class="ml-[10px] mt-[6px] text-slate-500">345 Faulconer Drive,Suite 4. Charlottesville,CA,12345</p>
+                    </span>
+                    <div class="ml-10 lg:flex justify-between">
+                        <span class="mt-[15px] flex">
+                            <i class="text-orange-500 ri-phone-fill"></i>
+                            <p class=" ml-[10px] mt-[6px]">(123) 456-7890</p>  
+                        </span>
+                        <span class="mt-[15px] mr-[120px] flex">
+                            <i class="text-orange-500 ri-printer-fill"></i>
+                            <p class=" ml-[10px] mt-[6px]">(123) 456-7890</p>  
+                        </span>
+                    </div>
+                    <div class="flex mt-[30px] justify-around">
+                        <p class="ml-10 lg:mt-[5px] text-[11px]">Social Media</p>
+                        <div class="justify-between">
+                            <i class=" text-orange-500 ri-facebook-box-fill"></i>
+                            <i class=" text-orange-500 ri-twitter-fill"></i>
+                            <i class=" text-orange-500 ri-linkedin-fill"></i>
+                            <i class=" text-orange-500 ri-youtube-fill"></i>
+                            <i class=" text-orange-500 ri-instagram-line"></i> 
+                            <i class=" text-orange-500 ri-google-fill"></i>
+                            <i class=" text-orange-500 ri-pinterest-fill"></i>
+                            <i class=" text-orange-500 ri-wifi-fill"></i>            
+    
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class=" w-[42%]">
-                <span class="mt-[30px] flex">
-                    <i class="text-orange-500 ri-map-pin-2-fill"></i>
-                    <p class="ml-[10px] mt-[6px] text-slate-500 text-[11px]">345 Faulconer Drive,Suite 4. Charlottesville,CA,12345</p>
-                </span>
-                <div class="flex justify-between">
-                    <span class="mt-[15px] flex">
-                        <i class="text-orange-500 ri-phone-fill"></i>
-                        <p class="text-[11px] ml-[10px] mt-[6px]">(123) 456-7890</p>  
-                    </span>
-                    <span class="mt-[15px] mr-[120px] flex">
-                        <i class="text-orange-500 ri-printer-fill"></i>
-                        <p class="text-[11px] ml-[10px] mt-[6px]">(123) 456-7890</p>  
-                    </span>
-                </div>
-                <div class="flex mt-[30px] justify-around">
-                    <p class="mt-[5px] text-[11px]">Social Media</p>
-                    <i class=" text-orange-500 ri-facebook-box-fill"></i>
-                    <i class=" text-orange-500 ri-twitter-fill"></i>
-                    <i class=" text-orange-500 ri-linkedin-fill"></i>
-                    <i class=" text-orange-500 ri-youtube-fill"></i>
-                    <i class=" text-orange-500 ri-instagram-line"></i> 
-                    <i class=" text-orange-500 ri-google-fill"></i>
-                    <i class=" text-orange-500 ri-pinterest-fill"></i>
-                    <i class=" text-orange-500 ri-wifi-fill"></i>            
-                </div>
+            <!-- <hr class="bg-slate-300 mx-auto h-[2px] w-[80%] mx-[auto] mt-[30px]"> -->
+            <div class="justify-between lg:flex mt-[20px]">
+                <nav class="ml-4 justify-around lg:ml-[100px]  lg:flex ">
+                    <a href="" class="">ABOUT US</a>
+                    <a href="">CONTACT US</a>
+                    <a href="">HELP</a>
+                    <a href="">PRIVACY POLICY</a>
+                    <a href="">DISCLAIMER</a>
+                </nav>
+                <p class=" mb-14 mr-[100px] text-slate-400 mt-[3px]">Copyright <i class="pt-[10px] ri-copyright-line"></i> 2020 Minimumlivingcost. All rights reserved</p>
             </div>
         </div>
-        <hr class="bg-slate-300 mx-auto h-[2px] w-[80%] mx-[auto] mt-[30px]">
-        <div class="justify-between flex mt-[20px]">
-            <nav class="justify-around ml-[100px] text-[13px] flex w-[46%]">
-                <a href="">ABOUT US</a>
-                <a href="">CONTACT US</a>
-                <a href="">HELP</a>
-                <a href="">PRIVACY POLICY</a>
-                <a href="">DISCLAIMER</a>
-            </nav>
-            <p class=" mb-14 mr-[100px] text-slate-400 mt-[3px] text-[11px]">Copyright <i class="pt-[10px] ri-copyright-line"></i> 2020 Minimumlivingcost. All rights reserved</p>
-        </div>
-    </div>
+
+    </footer>
  
 </body>
 </html>
